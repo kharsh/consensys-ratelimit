@@ -13,7 +13,6 @@ describe('rate limit', function() {
     it('Reach the limit rate for the project', async function() {
       await httpHelper.getNumberOfMostRecentEthBlocksInParallelReq(latestBlockNumber)
     });
-
     
     it('Validate rate limit responses', async function() {
       response = await httpHelper.getLimitRateResponse()
