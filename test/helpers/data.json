@@ -1,0 +1,11 @@
+
+{
+    "hex": 16,
+    "number_of_block_requests" : 100000,
+    "max_parallel_requests_per_cpu": 5,
+    "allowed_rps_plus": 5,
+    "backOff_interval_plus": 5,
+    "responses_json_file" : "responses_json.json",
+    "encoding" : "utf8"
+}
+

@@ -1,0 +1,24 @@
+{
+  "name": "gamble-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --timeout 100000 --experimental-worker ./src/main.js",
+    "start": "node --experimental-worker ./src/main.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "mocha": "^8.4.0"
+  },
+  "dependencies": {
+    "axios": "^0.21.1",
+    "axios-parallel": "^1.0.8",
+    "axios-rate-limit": "^1.3.0",
+    "chai": "^4.3.4",
+    "chai-http": "^4.3.0",
+    "chromedriver": "^90.0.0",
+    "selenium-webdriver": "^4.0.0-beta.3"
+  }
+}
